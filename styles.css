@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Metal+Mania&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Tac+One&display=swap');
+*{
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.nav{
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 60px;
+    align-items: center;
+    border-bottom: 2px solid #67c416;
+}
+.head{
+    font-family: 'Tac One';
+    font-size: 30px;
+    color: #006939;
+}
+
+.links > a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #006939;
+    font-family: kanit;
+    font-weight: 500;
+    padding-bottom: 5px;
+    padding: 0 10px 5px 0px;
+}
+
+.links > a:hover{
+    transition: 0.2s;
+    color: #9dc416;
+    
+    border-bottom: 3px solid #9dc416;
+}
+.landing-page{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 100px;
+    background-image: url('earth-half.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-bottom: 1px solid;
+}
+.image{
+    height: 400px;
+    width: 400px;
+    padding-right: 30px;
+}
+
+
+.hd-1{
+    font-family: 'Tac One';
+    font-size: 55px;
+    color: #006939;
+    padding-bottom: 40px;
+
+}
+.hd-2{
+    font-family: kanit;
+    font-size: x-large;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 50px;
+
+}
+
+.land-btn{
+    transition: 0.3s;
+    background-color: white;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'quantico';
+    font-size: 120px;
+    font-size: large;
+    border: 3px solid #006939;
+    padding: 5px 30px;
+}
+
+.land-btn:hover{
+    transition: 0.3s;
+    border: 3px solid #67c416;
+    color: #006939;
+}
+.brief-content{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.brief-content{
+    margin-top: 150px;
+}
+
+.topic{
+    margin-top: 80px;
+    width: 55vw;
+    padding: 20px 30px ;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 2px 2px 22px black;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+
+}
+.title{
+    font-family: 'Metal Mania';
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.content-title{
+    font-family: 'kanit';
+    font-size: 20px;
+}
+.youtube-video{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    margin-top: 100px;
+    height: 200px;
+    width: 100vw;
+    border-top: 3px solid #006939;
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.heading-foot > a{
+    font-family: 'Tac one';
+    text-decoration: none;
+    color: #006939;
+    font-size: 25px;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    font-family: kanit;
+    text-decoration: none;
+    height: 100%;
+
+}
+.footer-links > a{
+    text-decoration: none;
+    color: #006939;
+    margin-bottom: 15px;
+}
+
+.footer-links > a:hover{
+    transition: 0.2s;
+    color: #9dc416;
+    border-bottom: 3px solid #9dc416;
+}
+.members{
+    display: flex;
+    flex-direction: column;
+
+}
+.head-members{
+    font-family: kanit;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #006939;
+    font-size: 23px;
+}
+.n{
+    font-family: kanit;
+    letter-spacing: 1px;
+    color: #67c416;
+    font-size: 18px;
+}
